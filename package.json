@@ -1,0 +1,21 @@
+{
+    "name": "my-dark-theme",
+    "displayName": "My-Dark-Theme",
+    "description": "",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.50.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "sundown",
+                "uiTheme": "vs-dark",
+                "path": "./themes/sundown-color-theme.json"
+            }
+        ]
+    }
+}
